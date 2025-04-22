@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDULIB - Your Digital Library</title>
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Linking Swiper CSS -->
+</head>
+<body>
+    <!-- Header / Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <h2 class="logo-text">EDULIB</h2>
+            </a>
+            <ul class="nav-menu">
+            <button id="menu-close-button" class="fas fa-times"></button>
+
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Why Choose Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact Us</a>
+                </li> 
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Login</a>
+                </li>
+            </ul>
+        
+            <button id="menu-open-button" class="fas fa-bars"></button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero-section">
+            <div class="section-content">
+                <div class="hero-details">
+                <h2 class="title">Welcome to EDULIB</h2>
+                <h3 class="subtitle">Your gateway 
+                to a world of knowledge!</h3>
+                <p class="description">Explore a vast collection of books and resources, 
+                available to everyone, everywhere <br>
+                This library is dedicated to providing free access to information <br>
+                and promoting knowledge sharing in developing countries.</p>
+
+                <div class="buttons">
+                   <a href="#" class="button explore-more">Explore More</a>
+                   <a href="#" class="button contact-us">Contact Us</a>
+                   </div>
+                </div>
+                <div class="hero-image-wrapper">
+                   <img src="uploads/study-group-african-people.jpg" alt="study-group-african-people" class="study-group-african-people" width="1300" height="700">
+                </div>
+        </section>
+
+        <!-- About section -->
+         <section class="about-section">
+           <div class="section-content">
+            <div class="about-image-wrapper">
+                <img src="uploads/businessman-working-laptop.jpg" alt="About" class="about-image" width="1100" height="500">
+            </div>
+            <div class="about-details">
+               <h2 class="section-title">About Us</h2>
+               <p class="text">EDULIB is a digital library initiative focused on providing accessible educational resources. We believe that access to information is a fundamental right, and we strive to bridge the knowledge gap.Our mission is to empower individuals with the knowledge they need to improve their lives and contribute to their communities. We work to curate and provide a wide range of digital materials, including books, articles, and multimedia content.</p>
+            </div>
+           </div>
+         </section>
+
+         <!-- Books section -->
+          <section class="books-section">
+            <h2 class="section-title">Featured Books</h2>
+            <div class="section-content">
+                <ul class="book-list">
+                    <li class="book-items">
+                        <img src="uploads/business-data-analysis.jpg" alt="business-data-analysis" class="book-image" width="500" height="300">
+                    <h3 class="name">Data Analysis from Scratch</h3>
+                    <p class="text">Learn Data Analysis from Scratch. Step-by-Step</p>
+                    <a href="#">Read More</a>
+                    </li>
+                    <li class="book-items">
+                        <img src="uploads/still-life-sant-jordi-day-books-roses.jpg" alt="Book 2" width="500" height="300">
+                    <h3 class="name">The Skin Care Bible</h3>
+                    <p class="text">All you need to achieve and maintain a glowing and youthful skin</p>
+                    <a href="#">Read More</a>
+                    </li>
+                    <li class="book-items">
+                        <img src="uploads/medium-shot-student-studying-with-laptop.jpg" alt="medium-shot-student-studying-with-laptop" width="500" height="300">
+                    <h3 class="name">Database Practical Guide</h3>
+                    <p class="text">Learn and create your first database</p>
+                    <a href="#">Read More</a>
+                    </li>
+                    <li class="book-items">
+                        <img src="uploads/beautiful-zebra-wild.jpg" alt="beautiful-zebra-wild" width="500" height="300" >
+                    <h3 class="name">Blossoms of the Savannaj</h3>
+                    <p class="text">A story of hope and Resilience</p>
+                    <a href="#">Read More</a>
+                    </li>
+                    <li class="book-items">
+                        <img src="uploads/government-authority-law-pillar-graphic.jpg" alt="government-authority-law-pillar-graphic"width="500" height="300" >
+                    <h3 class="name">e-government or out of Government</h3>
+                    <p class="text">Get all the Knowledge</p>
+                    <a href="#">Read More</a>
+                      </div>
+                    </li>
+                </ul>
+            </div>
+          </section>
+    
+                    </div>
+                </div>
+                <p>Explore our extensive collection of books. We have a wide variety of genres and topics to cater to all interests.</p>
+            </div>
+        </section>
+<!-- Login section -->
+        <section id="login" class="section-black">
+            <div class="container">
+                <h2>Login / Register</h2>
+                <div class="login-form">
+                    <form action="login.php" method="post">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" required>
+                        <button type="submit">Login</button>
+                    </form>
+                    <p class="link">Don't have an account</p><br>
+                    <a href="#">Sign up here</a>
+                    <p class="liw">Login in with</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials section -->
+        <section class="testimonials-sections">
+           <h2 class="section-title">Testimonials</h2>
+           <div class="section-content">
+            <div class="slider-container swiper">
+                <div class="slider-wrapper">
+                    <ul class="testimonials-list swipper-wrapper">
+                      <li class="testimonials">
+                        <img src="uploads/young-african-american-man-holding-student-backpack-using-laptop-smiling-happy-doing-ok-sign-with-hand-eye-looking-through-fingers.jpg" alt="young-african-american-man-holding-student-backpack-using-laptop-smiling-happy-doing-ok-sign-with-hand-eye-looking-through-fingers" class="user-image" width="500" height="300">
+                      <h3 class="name">Livingstone Maganga</h3>
+                      <i class="feedback">"EDULIB has been an invaluable resource for my studies. The wide range of books and materials has immensely helped me."</i>
+                    </li>
+                    <ul class="testimonials-list">
+                        <li class="testimonials">
+                          <img src="uploads/medium-shot-student-studying-with-laptop.jpg" alt="medium-shot-student-studying-with-laptop" width="500" height="300">
+                        <h3 class="name">Excel Emeka</h3>
+                        <i class="feedback">"I'm grateful for EDULIB's commitment to providing free access to knowledge. It has opened up so many opportunities for me!"</i>
+                      </li>
+                    </ul>
+
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slider-button swiper-button-prev"></div>
+                    <div class="swiper-slider-button swiper-button-next"></div>
+                </div>
+            </div>
+           </div>
+        </section>
+    
+        <section id="why-choose-us" class="section-black">
+            <div class="container">
+                <h2>Why Choose EDULIB?</h2>
+                <div class="why-choose-us-item">
+                    <h3>Free Access</h3>
+                    <p>We provide free access to a vast collection of educational resources.</p>
+                </div>
+                <div class="why-choose-us-item">
+                    <h3>Comprehensive Resources</h3>
+                    <p>Our library includes books, articles, and multimedia content.</p>
+                </div>
+                <div class="why-choose-us-item">
+                    <h3>Knowledge Sharing</h3>
+                    <p>We are committed to promoting knowledge sharing and collaboration.</p>
+                </div>
+                <div class="why-choose-us-item">
+                    <h3>Accessible Education</h3>
+                    <p>We believe everyone deserves access to quality education, regardless of their location or economic status.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section-orange">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p>Get in touch with us for any inquiries or feedback.</p>
+                <p>Email: support@edulib.org</p>
+                <p>Phone: +123 456 7890</p>
+                <div class="social-media">
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
+                     </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+<!-- Linking Swiper script -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Linking custom script -->
+    <script src="script.js"></script>
+    <footer>
+        <p>&copy; 2025 EDULIB. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
